@@ -10,16 +10,16 @@ Detailed descriptions are provide in the comments in the script run_analysis.R. 
 
 ##Column Descriptions
 * Column 1
-- subject
-- An identifier for an induvidual subject
-- An integer ranging from 1 to 30
+ * "subject"
+ * An identifier for an induvidual subject
+ * An integer ranging from 1 to 30
 
 * Column 2
-- activity
-- An identifier for an activity type
-- A factor with levels "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING"
+ * "activity"
+ * An identifier for an activity type
+ * A factor with levels "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING"
 
 * Column 3 - 68
-- names are formatted as "signal.variable[.axis]"
-- "signal" is the type of generated signal, variable refers to whether it is a "mean" or "std", and "axis" refers to "X", "Y" or "Z" and it is optional when not applicable.
-- A numeric normalized between -1 and 1
+ * Feature names formatted as "signal.variable[.axis]"
+ * "signal" is the type of generated signal, variable refers to whether it is a "mean" or "std", and "axis" refers to "X", "Y" or "Z" and it is optional when not applicable.
+ * A numeric normalized between -1 and 1

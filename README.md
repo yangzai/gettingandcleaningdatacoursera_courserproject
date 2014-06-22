@@ -1,8 +1,7 @@
 #README.md
 
-##Files in this project (excluding the original data for the project)
+##Files in this project (excluding original data)
 - run_analysis.R
-- tidy_data_set.txt
 - CodeBook.md
 - README.md
 
